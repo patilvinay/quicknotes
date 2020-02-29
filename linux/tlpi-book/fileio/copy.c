@@ -10,6 +10,10 @@
 
 /* Listing 4-1 */
 
+/* copy.c
+
+   Copy the file named argv[1] to a new file named in argv[2].
+*/
 #include <sys/stat.h>
 #include <fcntl.h>
 #include "tlpi_hdr.h"

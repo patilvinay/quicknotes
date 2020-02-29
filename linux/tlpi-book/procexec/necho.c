@@ -10,6 +10,10 @@
 
 /* Listing 6-2 */
 
+/* necho.c
+
+   A simple version of echo(1): echo our command-line arguments.
+*/
 #include "tlpi_hdr.h"
 
 int
