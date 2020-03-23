@@ -13,3 +13,11 @@ command_exist(){
 https://stackoverflow.com/questions/818255/in-the-shell-what-does-21-mean
 
 
+````
+if [ -f ~/.zshrc ] || [ -h ~/.zshrc] ; then
+  #do this
+else
+#do this
+fi
+``
+
